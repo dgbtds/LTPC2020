@@ -1,0 +1,43 @@
+<html><head>
+  <SCRIPT src="http://java.com/js/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'LTPC2020_3_4_version2_main.jnlp'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedLTPC2020_3_4_version2_main_id() {
+        dtjava.embed(
+            {
+                id : 'LTPC2020_3_4_version2_main_id',
+                url : 'LTPC2020_3_4_version2_main.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '600',
+                height : '400'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedLTPC2020_3_4_version2_main_id);
+</script>
+
+</head><body>
+<h2>Test page for <b>LTPC_Soft</b></h2>
+  <b>Webstart:</b> <a href='LTPC2020_3_4_version2_main.jnlp' onclick="return launchApplication('LTPC2020_3_4_version2_main.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>

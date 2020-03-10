@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="LTPC2020_3_4_version2_main.jnlp">
+  <information>
+    <title>LTPC_Soft</title>
+    <vendor>Unknown</vendor>
+    <description>LTPC_Soft</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="LTPC2020_3_4_version2_main.jar" size="48247" download="eager" />
+    <jar href="commons-codec-1.10.jar" size="284184" download="eager" />
+    <jar href="commons-collections4-4.1.jar" size="751238" download="eager" />
+    <jar href="curvesapi-1.04.jar" size="98365" download="eager" />
+    <jar href="hamcrest-core-1.3.jar" size="45024" download="eager" />
+    <jar href="poi-3.17.jar" size="2701171" download="eager" />
+    <jar href="poi-ooxml-3.17.jar" size="1479023" download="eager" />
+    <jar href="poi-ooxml-schemas-3.17.jar" size="5924600" download="eager" />
+    <jar href="stax-api-1.0.1.jar" size="26514" download="eager" />
+    <jar href="xmlbeans-2.6.0.jar" size="2730866" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="com.wy.Main"  name="LTPC_Soft" />
+  <update check="background"/>
+</jnlp>
